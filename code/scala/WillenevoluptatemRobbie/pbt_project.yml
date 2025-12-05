@@ -1,0 +1,104 @@
+name: gaylene.jerde
+description: internet solution
+version: 0.0.1
+author: ornmtn8j.oyfrquxr@dw1rviic.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: gaylenejerde
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-12-05 21:56:43'
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: null
+    author: ornmtn8j.oyfrquxr@dw1rviic.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-12-05 21:56:44'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/P2:
+    name: P2
+    description: null
+    author: ornmtn8j.oyfrquxr@dw1rviic.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-12-05 21:56:44'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/P3:
+    name: P3
+    description: null
+    author: ornmtn8j.oyfrquxr@dw1rviic.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-12-05 21:56:44'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/D1:
+    name: D1
+    description: ''
+    author: ornmtn8j.oyfrquxr@dw1rviic.com
+    createdAt: '2025-12-05 21:56:44'
+    mode: batch
+    physicalDatasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-12-05 21:56:43'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs:
+  subgraphs/S1:
+    name: S1
+    description: null
+    author: ornmtn8j.oyfrquxr@dw1rviic.com
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2025-12-05 21:56:44'
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-12-05T21:56:43.706042Z'
+  name: plibMaven
+  version: 8.16.0-SNAPSHOT
+  id: '2022625235'
+  createdAt: '2025-12-05T21:56:43.706042Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
